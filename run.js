@@ -74,10 +74,21 @@ async function extractCsvsFromZip(zipPath, extractDir) {
 async function uploadToFtp(localPath) {
   const client = new ftp.Client();
   client.ftp.verbose = false;
+  // Prepare progress bar for FTP upload
+  const totalBytes = fs.statSync(localPath).size;
+  const upBar = new cliProgress.SingleBar(
+    { format: '   uploading    |{bar}| {value}/{total} bytes', hideCursor: true },
+    cliProgress.Presets.shades_classic
+  );
+  upBar.start(totalBytes, 0);
+  client.trackProgress(info => {
+    upBar.update(info.bytes);
+  });
   try {
     await client.access({ host: FTP_HOST, user: FTP_USER, password: FTP_PASSWORD, secure: false });
     await client.ensureDir(FTP_DIR);
     await client.uploadFrom(localPath, path.basename(localPath));
+    upBar.stop();
     console.log(`✅ Uploaded ${path.basename(localPath)} to FTP:${FTP_DIR}`);
   } catch (err) {
     console.error('❌ FTP upload failed:', err);
