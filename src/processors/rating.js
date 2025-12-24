@@ -27,7 +27,7 @@ module.exports = function ratingByYearAndCoach({ naf_game, winRatioByYearAndCoac
     const coachInfoMap = getCoachInfoMap(); // Retrieve coach metadata map
 
     naf_game.forEach(game => {
-      if (game.naf_variantsid === "1" || game.naf_variantsid === "13" || naf_variantsid === "15") {
+      if (game.naf_variantsid === "1" || game.naf_variantsid === "13" || game.naf_variantsid === "15") {
         const coachHomeId = game.homecoachid;
         const coachAwayId = game.awaycoachid;
         const year = game.year;
