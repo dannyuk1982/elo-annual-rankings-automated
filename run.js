@@ -1,6 +1,10 @@
 #!/usr/bin/env node
+<<<<<<< HEAD
 require('dotenv').config({ path: '/Users/server/elo-automated/.env' });
 
+=======
+require('dotenv').config();
+>>>>>>> 286f0217365c1a0e1b92a5e319cc13646890836d
 const AUTO_CONFIRM = process.env.AUTO_CONFIRM === 'yes';
 
 const fs          = require('fs');

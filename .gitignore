@@ -1,4 +1,11 @@
 /temp
 /cache
 /node_modules
-.DS_Store
+.DS_STORE
+/test
+run.log
+/cron
+/exports/finalData.js
+.env
+npm-debug.log
+yarn-error.log
