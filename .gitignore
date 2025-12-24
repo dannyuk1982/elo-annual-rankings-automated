@@ -1,7 +1,7 @@
 /temp
 /cache
 /node_modules
-.DS_STORE
+.DS_Store
 /test
 run.log
 /cron
