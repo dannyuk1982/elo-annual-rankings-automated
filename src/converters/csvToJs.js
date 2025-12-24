@@ -78,6 +78,10 @@ function convertCsvTextToJsModule(csvText, moduleName) {
   const slim = filtered.map(obj => {
     const slimObj = {};
     allowed.forEach(key => { slimObj[key] = obj[key] || ''; });
+    // If converting naf_game data, pre-compute the year to avoid repeated Date parsing later
+    if (moduleName === 'naf_game' && slimObj.date) {
+      slimObj.year = new Date(slimObj.date).getFullYear();
+    }
     return slimObj;
   });
 

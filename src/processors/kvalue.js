@@ -6,8 +6,8 @@ module.exports = function kvalue({ naf_game, naf_tournament, naf_tournamentcoach
 
     naf_game.forEach(tourney => {
       // Only include games of variant 1 or 13
-      if (tourney.naf_variantsid === "1" || tourney.naf_variantsid === "13") {
-        const year = new Date(tourney.date).getFullYear();
+      if (tourney.naf_variantsid === "1" || tourney.naf_variantsid === "13" || tourney.naf_variantsid === "15") {
+        const year = tourney.year;
         const tournamentId = tourney.tournamentid;
 
         // Initialize the map for this year if missing

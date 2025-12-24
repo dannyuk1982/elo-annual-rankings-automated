@@ -6,8 +6,8 @@ module.exports = function winratio({ naf_game }) {
 
     naf_game.forEach(game => {
       // Only include games of variant 1 or 13
-      if (game.naf_variantsid === "1" || game.naf_variantsid === "13") {
-        const year = new Date(game.date).getFullYear();
+      if (game.naf_variantsid === "1" || game.naf_variantsid === "13" || game.naf_variantsid === "15") {
+        const year = game.year;
         const homeCoachId = game.homecoachid;
         const awayCoachId = game.awaycoachid;
 

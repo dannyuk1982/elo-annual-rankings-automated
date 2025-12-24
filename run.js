@@ -1,5 +1,7 @@
 #!/usr/bin/env node
-require('dotenv').config();
+require('dotenv').config({ path: '/Users/server/elo-automated/.env' });
+
+const AUTO_CONFIRM = process.env.AUTO_CONFIRM === 'yes';
 
 const fs          = require('fs');
 const path        = require('path');
@@ -9,6 +11,7 @@ const readline    = require('readline');
 const cliProgress = require('cli-progress');
 const ftp         = require('basic-ftp');
 const { convertCsvTextToJsModule } = require('./src/converters/csvToJs');
+
 
 // Paths & config
 const ZIP_URL   = process.env.ZIP_URL;
@@ -24,7 +27,10 @@ const FTP_PASSWORD = process.env.FTP_PASSWORD;
 const FTP_DIR      = process.env.FTP_REMOTE_DIR || '/';
 
 // Prompt helper
-function ask(question) {
+function ask(question, defaultYes = false) {
+  if (AUTO_CONFIRM) {
+    return Promise.resolve(defaultYes ? 'Y' : 'N');
+  }
   return new Promise(resolve => {
     const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
     rl.question(question, ans => { rl.close(); resolve(ans.trim()); });
@@ -102,7 +108,7 @@ async function main() {
   // 0) Check for existing finalData.js
   let doProcess = true;
   if (fs.existsSync(FINAL_JS)) {
-    const ans = await ask(`Found existing ${FINAL_JS}. Recalculate? (Y/n): `);
+    const ans = await ask(`Found existing ${FINAL_JS}. Recalculate? (Y/n): `, true);
     // Skip only if explicit no
     if (/^n(o)?$/i.test(ans)) {
       console.log('ℹ️  Skipping processing.');
@@ -128,8 +134,12 @@ async function main() {
     if (!fs.existsSync(CACHE_DIR)) fs.mkdirSync(CACHE_DIR, { recursive: true });
     let doDownload = true;
     if (fs.existsSync(ZIP_PATH)) {
-      const ans = await ask(`Found cached ZIP at ${ZIP_PATH}. Redownload? (y/N): `);
-      if (!/^y(es)?$/i.test(ans)) { doDownload = false; console.log('📦 Using cached ZIP.'); }
+      const ans = await ask(`Found cached ZIP at ${ZIP_PATH}. Redownload? (Y/n): `, true);
+      // Skip only if explicit no
+      if (/^n(o)?$/i.test(ans)) { 
+        doDownload = false; 
+        console.log('📦 Using cached ZIP.'); 
+      }
     }
     if (doDownload) {
       console.log(`⬇️  Downloading ZIP from ${ZIP_URL}...`);
@@ -250,7 +260,7 @@ async function main() {
   }
 
   // 9) Upload via FTP
-  const uploadAns = await ask('Upload finalData.js via FTP? (Y/n): ');
+  const uploadAns = await ask('Upload finalData.js via FTP? (Y/n): ', true);
   if (!/^n(o)?$/i.test(uploadAns)) {
     console.log('🚀 Uploading finalData.js to FTP:');
     const tU = Date.now();

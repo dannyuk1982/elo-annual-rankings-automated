@@ -1,0 +1,407 @@
+
+
+2025-09-22 05:00:00 Starting Annual ELO rankings automated run
+
+⬇️  Downloading ZIP from https://member.thenaf.net/glicko/nafstat-tmp-name.zip...
+✅ ZIP cached (2.41s)
+🔄 Extracting CSVs into temp:
+✅ Extracted 9 CSVs in 0.58s
+🔄 Converting CSVs to JS modules in temp:
+✅ Converted in 16.78s
+▶️  Loading data modules...
+⚙️  Running processors:
+   ▶️ Starting tournamentCount…
+   • tournamentCount took 283.15s
+   ▶️  Starting winratio…
+   • winratio took 0.18s
+   ▶️  Starting kvalue…
+   • kvalue took 1382.92s
+   ▶️  Starting rating…
+   • rating took 0.96s
+   ▶️  Starting position…
+   • position took 0.31s
+✅ All processors done in 1667.52s
+💾 Writing finalData.js:
+✅ Written in 0.34s
+🧹 Cleaning up temp:
+✅ Temp cleared in 0.01s
+🚀 Uploading finalData.js to FTP:
+✅ Uploaded finalData.js to FTP:/public_html/files/annualelo
+✅ FTP upload done in 9.03s
+
+
+2025-09-29 05:00:01 Starting Annual ELO rankings automated run
+
+⬇️  Downloading ZIP from https://member.thenaf.net/glicko/nafstat-tmp-name.zip...
+✅ ZIP cached (2.50s)
+🔄 Extracting CSVs into temp:
+✅ Extracted 9 CSVs in 0.57s
+🔄 Converting CSVs to JS modules in temp:
+✅ Converted in 16.77s
+▶️  Loading data modules...
+⚙️  Running processors:
+   ▶️ Starting tournamentCount…
+   • tournamentCount took 273.98s
+   ▶️  Starting winratio…
+   • winratio took 0.20s
+   ▶️  Starting kvalue…
+   • kvalue took 1331.43s
+   ▶️  Starting rating…
+   • rating took 0.95s
+   ▶️  Starting position…
+   • position took 0.32s
+✅ All processors done in 1606.90s
+💾 Writing finalData.js:
+✅ Written in 0.32s
+🧹 Cleaning up temp:
+✅ Temp cleared in 0.01s
+🚀 Uploading finalData.js to FTP:
+✅ Uploaded finalData.js to FTP:/public_html/files/annualelo
+✅ FTP upload done in 10.27s
+
+
+2025-10-06 05:00:00 Starting Annual ELO rankings automated run
+
+⬇️  Downloading ZIP from https://member.thenaf.net/glicko/nafstat-tmp-name.zip...
+✅ ZIP cached (2.76s)
+🔄 Extracting CSVs into temp:
+✅ Extracted 9 CSVs in 0.62s
+🔄 Converting CSVs to JS modules in temp:
+✅ Converted in 17.59s
+▶️  Loading data modules...
+⚙️  Running processors:
+   ▶️ Starting tournamentCount…
+   • tournamentCount took 281.56s
+   ▶️  Starting winratio…
+   • winratio took 0.22s
+   ▶️  Starting kvalue…
+   • kvalue took 1365.84s
+   ▶️  Starting rating…
+   • rating took 0.97s
+   ▶️  Starting position…
+   • position took 0.31s
+✅ All processors done in 1648.91s
+💾 Writing finalData.js:
+✅ Written in 0.37s
+🧹 Cleaning up temp:
+✅ Temp cleared in 0.01s
+🚀 Uploading finalData.js to FTP:
+✅ Uploaded finalData.js to FTP:/public_html/files/annualelo
+✅ FTP upload done in 7.61s
+
+
+2025-10-13 05:00:00 Starting Annual ELO rankings automated run
+
+⬇️  Downloading ZIP from https://member.thenaf.net/glicko/nafstat-tmp-name.zip...
+✅ ZIP cached (2.86s)
+🔄 Extracting CSVs into temp:
+✅ Extracted 9 CSVs in 0.68s
+🔄 Converting CSVs to JS modules in temp:
+✅ Converted in 18.92s
+▶️  Loading data modules...
+⚙️  Running processors:
+   ▶️ Starting tournamentCount…
+   • tournamentCount took 308.44s
+   ▶️  Starting winratio…
+   • winratio took 0.18s
+   ▶️  Starting kvalue…
+   • kvalue took 1505.91s
+   ▶️  Starting rating…
+   • rating took 1.15s
+   ▶️  Starting position…
+   • position took 0.31s
+✅ All processors done in 1816.00s
+💾 Writing finalData.js:
+✅ Written in 0.38s
+🧹 Cleaning up temp:
+✅ Temp cleared in 0.01s
+🚀 Uploading finalData.js to FTP:
+✅ Uploaded finalData.js to FTP:/public_html/files/annualelo
+✅ FTP upload done in 8.94s
+
+
+2025-10-20 05:00:00 Starting Annual ELO rankings automated run
+
+⬇️  Downloading ZIP from https://member.thenaf.net/glicko/nafstat-tmp-name.zip...
+✅ ZIP cached (2.61s)
+🔄 Extracting CSVs into temp:
+✅ Extracted 9 CSVs in 0.69s
+🔄 Converting CSVs to JS modules in temp:
+✅ Converted in 19.65s
+▶️  Loading data modules...
+⚙️  Running processors:
+   ▶️ Starting tournamentCount…
+   • tournamentCount took 333.05s
+   ▶️  Starting winratio…
+   • winratio took 0.18s
+   ▶️  Starting kvalue…
+   • kvalue took 1559.56s
+   ▶️  Starting rating…
+   • rating took 1.03s
+   ▶️  Starting position…
+   • position took 0.46s
+✅ All processors done in 1894.28s
+💾 Writing finalData.js:
+✅ Written in 0.37s
+🧹 Cleaning up temp:
+✅ Temp cleared in 0.01s
+🚀 Uploading finalData.js to FTP:
+✅ Uploaded finalData.js to FTP:/public_html/files/annualelo
+✅ FTP upload done in 8.98s
+
+
+2025-10-27 05:00:00 Starting Annual ELO rankings automated run
+
+⬇️  Downloading ZIP from https://member.thenaf.net/glicko/nafstat-tmp-name.zip...
+❌ Error: Error: HTTP 409
+    at ClientRequest.<anonymous> (/Users/server/elo-automated/run.js:44:49)
+    at Object.onceWrapper (node:events:634:26)
+    at ClientRequest.emit (node:events:519:28)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:716:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:121:17)
+    at TLSSocket.socketOnData (node:_http_client:558:22)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:189:23)
+
+
+2025-11-03 05:00:00 Starting Annual ELO rankings automated run
+
+⬇️  Downloading ZIP from https://member.thenaf.net/glicko/nafstat-tmp-name.zip...
+✅ ZIP cached (2.83s)
+🔄 Extracting CSVs into temp:
+✅ Extracted 9 CSVs in 0.51s
+🔄 Converting CSVs to JS modules in temp:
+✅ Converted in 16.71s
+▶️  Loading data modules...
+⚙️  Running processors:
+   ▶️ Starting tournamentCount…
+   • tournamentCount took 268.72s
+   ▶️  Starting winratio…
+   • winratio took 0.17s
+   ▶️  Starting kvalue…
+   • kvalue took 1288.38s
+   ▶️  Starting rating…
+   • rating took 0.88s
+   ▶️  Starting position…
+   • position took 0.27s
+✅ All processors done in 1558.43s
+💾 Writing finalData.js:
+✅ Written in 0.34s
+🧹 Cleaning up temp:
+✅ Temp cleared in 0.01s
+🚀 Uploading finalData.js to FTP:
+✅ Uploaded finalData.js to FTP:/public_html/files/annualelo
+✅ FTP upload done in 12.73s
+
+
+2025-11-10 05:00:01 Starting Annual ELO rankings automated run
+
+⬇️  Downloading ZIP from https://member.thenaf.net/glicko/nafstat-tmp-name.zip...
+✅ ZIP cached (2.92s)
+🔄 Extracting CSVs into temp:
+✅ Extracted 9 CSVs in 0.65s
+🔄 Converting CSVs to JS modules in temp:
+✅ Converted in 18.72s
+▶️  Loading data modules...
+⚙️  Running processors:
+   ▶️ Starting tournamentCount…
+   • tournamentCount took 305.19s
+   ▶️  Starting winratio…
+   • winratio took 0.19s
+   ▶️  Starting kvalue…
+   • kvalue took 1503.73s
+   ▶️  Starting rating…
+   • rating took 1.00s
+   ▶️  Starting position…
+   • position took 0.37s
+✅ All processors done in 1810.47s
+💾 Writing finalData.js:
+✅ Written in 0.34s
+🧹 Cleaning up temp:
+✅ Temp cleared in 0.01s
+🚀 Uploading finalData.js to FTP:
+✅ Uploaded finalData.js to FTP:/public_html/files/annualelo
+✅ FTP upload done in 8.04s
+
+
+2025-11-17 05:00:01 Starting Annual ELO rankings automated run
+
+⬇️  Downloading ZIP from https://member.thenaf.net/glicko/nafstat-tmp-name.zip...
+✅ ZIP cached (3.05s)
+🔄 Extracting CSVs into temp:
+✅ Extracted 9 CSVs in 0.70s
+🔄 Converting CSVs to JS modules in temp:
+✅ Converted in 16.86s
+▶️  Loading data modules...
+⚙️  Running processors:
+   ▶️ Starting tournamentCount…
+   • tournamentCount took 290.75s
+   ▶️  Starting winratio…
+   • winratio took 0.14s
+   ▶️  Starting kvalue…
+   • kvalue took 2990.25s
+   ▶️  Starting rating…
+   • rating took 0.90s
+   ▶️  Starting position…
+   • position took 0.28s
+✅ All processors done in 3282.32s
+💾 Writing finalData.js:
+✅ Written in 0.45s
+🧹 Cleaning up temp:
+✅ Temp cleared in 0.01s
+🚀 Uploading finalData.js to FTP:
+✅ Uploaded finalData.js to FTP:/public_html/files/annualelo
+✅ FTP upload done in 8.15s
+
+
+2025-11-24 05:00:00 Starting Annual ELO rankings automated run
+
+⬇️  Downloading ZIP from https://member.thenaf.net/glicko/nafstat-tmp-name.zip...
+✅ ZIP cached (2.63s)
+🔄 Extracting CSVs into temp:
+✅ Extracted 9 CSVs in 0.67s
+🔄 Converting CSVs to JS modules in temp:
+✅ Converted in 15.99s
+▶️  Loading data modules...
+⚙️  Running processors:
+   ▶️ Starting tournamentCount…
+   • tournamentCount took 297.97s
+   ▶️  Starting winratio…
+   • winratio took 0.35s
+   ▶️  Starting kvalue…
+   • kvalue took 2870.30s
+   ▶️  Starting rating…
+   • rating took 0.85s
+   ▶️  Starting position…
+   • position took 0.26s
+✅ All processors done in 3169.75s
+💾 Writing finalData.js:
+✅ Written in 0.43s
+🧹 Cleaning up temp:
+✅ Temp cleared in 0.01s
+🚀 Uploading finalData.js to FTP:
+✅ Uploaded finalData.js to FTP:/public_html/files/annualelo
+✅ FTP upload done in 10.86s
+
+
+2025-12-01 04:00:01 Starting Annual ELO rankings automated run
+
+⬇️  Downloading ZIP from https://member.thenaf.net/glicko/nafstat-tmp-name.zip...
+✅ ZIP cached (3.42s)
+🔄 Extracting CSVs into temp:
+✅ Extracted 9 CSVs in 0.58s
+🔄 Converting CSVs to JS modules in temp:
+✅ Converted in 16.83s
+▶️  Loading data modules...
+⚙️  Running processors:
+   ▶️ Starting tournamentCount…
+   • tournamentCount took 284.17s
+   ▶️  Starting winratio…
+   • winratio took 0.13s
+   ▶️  Starting kvalue…
+   • kvalue took 2894.90s
+   ▶️  Starting rating…
+   • rating took 0.90s
+   ▶️  Starting position…
+   • position took 0.25s
+✅ All processors done in 3180.36s
+💾 Writing finalData.js:
+✅ Written in 0.40s
+🧹 Cleaning up temp:
+✅ Temp cleared in 0.01s
+🚀 Uploading finalData.js to FTP:
+✅ Uploaded finalData.js to FTP:/public_html/files/annualelo
+✅ FTP upload done in 21.11s
+
+
+2025-12-08 04:00:01 Starting Annual ELO rankings automated run
+
+⬇️  Downloading ZIP from https://member.thenaf.net/glicko/nafstat-tmp-name.zip...
+✅ ZIP cached (3.90s)
+🔄 Extracting CSVs into temp:
+✅ Extracted 9 CSVs in 0.53s
+🔄 Converting CSVs to JS modules in temp:
+✅ Converted in 16.89s
+▶️  Loading data modules...
+⚙️  Running processors:
+   ▶️ Starting tournamentCount…
+   • tournamentCount took 337.61s
+   ▶️  Starting winratio…
+   • winratio took 0.39s
+   ▶️  Starting kvalue…
+   • kvalue took 3149.71s
+   ▶️  Starting rating…
+   • rating took 1.04s
+   ▶️  Starting position…
+   • position took 0.29s
+✅ All processors done in 3489.07s
+💾 Writing finalData.js:
+✅ Written in 0.53s
+🧹 Cleaning up temp:
+✅ Temp cleared in 0.01s
+🚀 Uploading finalData.js to FTP:
+✅ Uploaded finalData.js to FTP:/public_html/files/annualelo
+✅ FTP upload done in 8.51s
+
+
+2025-12-15 04:00:01 Starting Annual ELO rankings automated run
+
+⬇️  Downloading ZIP from https://member.thenaf.net/glicko/nafstat-tmp-name.zip...
+✅ ZIP cached (2.93s)
+🔄 Extracting CSVs into temp:
+✅ Extracted 9 CSVs in 0.64s
+🔄 Converting CSVs to JS modules in temp:
+✅ Converted in 21.84s
+▶️  Loading data modules...
+⚙️  Running processors:
+   ▶️ Starting tournamentCount…
+   • tournamentCount took 363.65s
+   ▶️  Starting winratio…
+   • winratio took 0.21s
+   ▶️  Starting kvalue…
+   • kvalue took 1643.65s
+   ▶️  Starting rating…
+   • rating took 1.24s
+   ▶️  Starting position…
+   • position took 0.33s
+✅ All processors done in 2009.09s
+💾 Writing finalData.js:
+✅ Written in 0.43s
+🧹 Cleaning up temp:
+✅ Temp cleared in 0.01s
+🚀 Uploading finalData.js to FTP:
+✅ Uploaded finalData.js to FTP:/public_html/files/annualelo
+✅ FTP upload done in 7.18s
+
+
+2025-12-22 04:00:00 Starting Annual ELO rankings automated run
+
+⬇️  Downloading ZIP from https://member.thenaf.net/glicko/nafstat-tmp-name.zip...
+✅ ZIP cached (1.70s)
+🔄 Extracting CSVs into temp:
+✅ Extracted 9 CSVs in 0.83s
+🔄 Converting CSVs to JS modules in temp:
+✅ Converted in 25.18s
+▶️  Loading data modules...
+⚙️  Running processors:
+   ▶️ Starting tournamentCount…
+   • tournamentCount took 432.48s
+   ▶️  Starting winratio…
+   • winratio took 0.20s
+   ▶️  Starting kvalue…
+   • kvalue took 1990.41s
+   ▶️  Starting rating…
+   • rating took 1.89s
+   ▶️  Starting position…
+   • position took 0.50s
+✅ All processors done in 2425.49s
+💾 Writing finalData.js:
+✅ Written in 0.61s
+🧹 Cleaning up temp:
+✅ Temp cleared in 0.02s
+🚀 Uploading finalData.js to FTP:
+✅ Uploaded finalData.js to FTP:/public_html/files/annualelo
+✅ FTP upload done in 20.51s

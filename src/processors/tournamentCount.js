@@ -9,8 +9,8 @@ module.exports = function tournamentCount({ naf_tournamentcoach, naf_game, Coach
       const game = naf_game.find(g => g.tournamentid === tc.naftournament);
 
       // Only include games of variant 1 or 13
-      if (game && (game.naf_variantsid === "1" || game.naf_variantsid === "13")) {
-        const year = new Date(game.date).getFullYear();
+      if (game && (game.naf_variantsid === "1" || game.naf_variantsid === "13" || game.naf_variantsid === "15")) {
+        const year = game.year;
         const nafCoach = tc.nafcoach;
 
         // Initialize the map for this year if absent
